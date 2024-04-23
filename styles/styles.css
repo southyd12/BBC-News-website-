@@ -31,6 +31,7 @@ a.header-links {
   align-self: center;
   justify-content: center;
   padding-block-end: 0.5em;
+  border: 2px solid hsl(0, 0%, 100%);
 }
 
 .sign-in {
@@ -113,11 +114,11 @@ input#search:hover,input#search:focus {
 
 .second-header-title,a.second-header-links {
   color: hsl(0, 0%, 100%);
+  border-block-end: 4px solid hsl(0, 100%, 36%);
 }
 
 .second-header-title {
   margin: 0;
-  padding: 0.1em;
   max-width: 1280px;
   margin: auto;
 }
@@ -144,15 +145,12 @@ a.subsection-links,a.first-subsection-links {
 a.subsection-links { 
   border-inline-start: 1px solid hsl(0, 0%, 86%);  
   padding-inline-start: 0.5em;
+  border-block-end: 4px solid hsl(0, 0%, 100%);
 }
 
 a.subsection-links:hover,
 a.first-subsection-links:hover {
   border-block-end: 4px solid hsl(0, 100%, 36%);
-}
-
-.more:hover,.more:focus {
-  background-color: hsl(0, 0%, 0%);
 }
 
 .main-stories-wrapper {
@@ -304,7 +302,6 @@ a.main-stories-column-link {
 
 .main-stories-settings-container:hover,.main-stories-settings-container:focus {
   color: hsl(0, 100%, 36%);
-  text-decoration: underline;
   background-color: hsla(0, 15%, 83%, 0.396);
 }
 
